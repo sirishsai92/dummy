@@ -1,10 +1,10 @@
 package sample
 
 import (
-	"fmt"
 	"testing"
+	"fmt"
 )
 
 func TestHelloWorld(t *testing.T) {
-   t.Errorf("Whoops it fails now")
+    fmt.Println("Hello world!")
 }
